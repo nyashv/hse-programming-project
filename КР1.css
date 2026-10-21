@@ -1,0 +1,171 @@
+css
+
+html, body {
+font-family: 'Courier New', Courier, monospace;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+body {
+    background-image: url('img/18.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+    padding-bottom: 550px;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color:blanchedalmond ;
+    width: 100%; 
+    margin: 5px auto;
+}
+.basiс_txt {
+    font-family:'Courier New', Courier, monospace;
+    color: blanchedalmond ;
+    font-size: 21px;
+}
+table td a {
+    color: black;
+    font-size: 18px;
+}
+table td a:hover {
+    color: grey;
+}
+table td a:active {
+    color:azure
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: blanchedalmond;
+    padding: 10px;
+    text-align: center;
+}
+.card img {
+    display: flex;
+    width: 400px;
+    height: auto;
+}
+.card :last-child {
+    width: 100px;
+    height: auto;
+}
+.passport-items .card:nth-child(3), 
+.gallery .card:nth-child(3) {
+    width: fit-content;
+    height: fit-content;
+    align-self: flex-start;
+}
+.card p {
+    color: black;
+    margin-top: 10 px;
+    margin-bottom: 5px;
+}
+.anchor-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    background-color:rgb(68, 96, 112);
+}
+.anchor-menu a {
+    color: black;
+    flex: auto;
+    text-align: center;
+}
+.anchor-menu a:hover {
+    color:grey;
+}
+.anchor-menu a:active {
+    color: azure;
+}
+h1 {
+    text-align: center;
+}
+ol {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+ul {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.about_photo {
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+a {
+    color: blanchedalmond;
+    text-decoration: blanchedalmond;
+}
+a :hover {
+    color:lightsalmon;
+}
+a :active {
+    color:brown;
+}
+form {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: blanchedalmond;
+}
+form div {
+    margin-bottom: 20px;
+}
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+form button[type="submit"] {
+    width: 100%;
+    background-color: blanchedalmond;
+}
+.passport_image{
+    width: 190px;
+    height: 240px;
+}
+.passport-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.passport_text {
+    color: blanchedalmond;
+}
+.task {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.input-title {
+    color: blanchedalmond;
+}
+#calc_btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.result-box {
+    color: blanchedalmond;
+}
