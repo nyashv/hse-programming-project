@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="КР1.css">
+    <title>Форма</title>
+</head>
+<body>
+<table cellpadding="50" width="100%">
+            <tr>
+                <td> <h2> Меню </h2> </td>
+                <td> <a href="main.html"> Главная страница </a> </td>
+                <td> <a href="info.html"> Информация </a> </td>
+                <td> <a href="img_page.html"> Фото </a> </td>
+                <td> <a href="form.html"> <B>Форма</B> </a> </td>
+                <td> <a href="task.html"> Задача </a> </td>
+                <td> <a href="passport.html"> Паспорт </a> </td>
+                <!-- add more later -->
+            </tr>
+</table>
+<hr>
+    <h1>Фотографии на заказ</h1>
+<section class="basiс_txt">
+    <p align="center">Если у вас есть вопросы или предложения, заполните форму ниже</p>
+</section>
+<form>
+  <input type="hidden" name="status" value="html">
+  <div>
+    <p>Имя:</p><br>
+    <input type="text" name="first_name" placeholder="Анна" required><br>
+  </div>
+  <div>
+    <p>Фамилия:</p><br>
+    <input type="text" name="second_name" placeholder="Сигмова" required>
+  </div>
+  <div>
+    <p>Телефон для связи:</p><br>
+    <input type="tel" name="telephone" placeholder="+78005553535" required>
+  </div>
+  <div>
+    <p>Пароль для вашего заказа:</p><br>
+    <input type="password" name="password" placeholder="****" required>
+  </div>
+  <div>
+    <p>Желаемая дата съемки:</p><br>
+    <input type="date" name="date" required>
+  </div>
+  <div>
+    <p>Какое количество копий/снимков вам необходимо?</p><br>
+    <input type="number" name="number" min="1" max="100" value="1" required>
+  </div>
+  <div>
+    <p>Выберите формат:</p><br>
+    <input type="radio" name="service_type" value="individual" id="type_ind" checked>
+    <label for="type_ind">Индивидуальная фотосессия</label><br>
+    <input type="radio" name="service_type" value="group" id="type_group">
+    <label for="type_group">Групповая фотосессия</label><br>
+    <input type="radio" name="service_type" value="object" id="type_object">
+    <label for="type_object">Фотография объекта</label>
+  </div>
+  <div>
+    <p>Дополнительные условия/пожелания к заказу:</p><br>
+    <input type="checkbox" name="retouch" value="yes" id="_retouch" checked>
+    <label for="_retouch">Ретушь фотографий</label><br>
+    <input type="checkbox" name="studio" value="yes" id="_studio">
+    <label for="_studio">Требуется аренда фотостудии</label><br>
+    <input type="checkbox" name="own_camera" value="yes" id="_camera">
+    <label for="_camers">У меня своя камера</label><br>
+    <input type="checkbox" name="other" value="yes" id="_other">
+    <label for="_studio">Требуется дополнительный реквизит</label>
+  </div><br>
+  <div>
+    <label> Оставьте отзыв </label><br>
+    <input type="text" name="report" placeholder="Мне нравится, что...">
+  </div><br>
+  <button type="submit">Отправить</button>
+</form>
+</body>
+</html>

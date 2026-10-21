@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="КР1.css">
+        <title> Задача </title>
+    </head>
+    <body>
+        <table cellpadding="50" width="100%">
+            <tr>
+                <td> <h2> Меню </h2> </td>
+                <td> <a href="main.html"> Главная страница </a> </td>
+                <td> <a href="info.html"> Информация </a> </td>
+                <td> <a href="img_page.html"> Фото </a> </td>
+                <td> <a href="form.html"> Форма </a> </td>
+                <td> <a href="task.html"> <B>Задача</B> </a> </td>
+                <td> <a href="passport.html"> Паспорт </a> </td>
+                <!-- add more later -->
+            </tr>
+        </table> <hr>
+<div class="task-container">
+        <h1> Решение алгоритмической задачи </h1>
+        <section class="basiс_txt">
+        <p align="center"> 
+            1011. Определить значение функции Z = 1/(XY) при произвольных X и Y.
+        </p>
+        </section>
+
+    <div class="task">
+        <div class="input-group">
+            <p class="input-title">Введите значение X:</p>
+            <input type="number" id="inputX" step="any" required>
+        </div>
+
+        <div class="input-group">
+            <p class="input-title">Введите значение Y:</p>
+            <input type="number" id="inputY" step="any" required>
+        </div>
+
+        <button id="calc_btn">Посчитать</button>
+
+        <div class="result-box">
+        <span id="result_output">Значение функции Z = </span>
+    </div>
+</div>
+<script src="task.js"></script>
+    </body>
+</html> 
